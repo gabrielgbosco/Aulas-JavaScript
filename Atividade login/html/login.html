@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Login</title>
+    <link rel="stylesheet" href="../visual/login.css">
+    <link rel="shortcut icon" href="../visual/imagens/triangulo-vermelho.png" type="image/x-icon">
+    <script src="../script/script.js"></script>
+</head>
+<body>
+
+    <div id="insercao-de-dados">
+
+        <div id="imagem-usuario">
+            <img src="../visual/imagens/foto-de-perfil.png" alt="Foto do Usuário">
+        </div>
+
+        <form action="#" method="post">
+            <div id="nome-senha">
+                <div class="quebra-de-linha">
+                    <label for="nome-de-usuario">Nome de usuário:</label>
+                    <input type="text" name="nome-de-usuario" id="nome-de-usuario">
+                </div>
+
+                <div class="quebra-de-linha">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+            </div>    
+
+            <div id="div-botao">
+                <button type="button" id="entrar" onclick="fazerLogin()">Entrar</button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
