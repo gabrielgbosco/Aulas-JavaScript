@@ -1,5 +1,5 @@
-let a = 15;
-let b = 5;
+let a = parseInt(document.getElementById('numeroA').value);
+let b = parseInt(document.getElementById('numeroB').value);
 
 function diferenca() {
     let resultado = a - b;
@@ -28,8 +28,3 @@ function descobrirMaiorNumero() {
     console.log (`O maior número é: ${maiorNumero}. E o menor número é: ${menorNumero}.`);
     console.log (`Na ordem decrescente fica: ${maiorNumero}, ${menorNumero}.`);
 }
-
-diferenca()
-calculoDeDobroETriplo()
-multiplicarVariaveis()
-descobrirMaiorNumero()
